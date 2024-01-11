@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Street Food Fun</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PLACES</a></li>
+                <li><a href="">VISITERS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu"></i>
+    </nav>
+ <div class="text-box">
+    <h1>World's Biggest Street Food</h1>
+    <p>Street food is exactly what the words conjure up: food available in a public place, such as from a vendor on a street. And so much more! Typically, street food is tasty, ready-to-eat food or drink sold on the street, in a market, fair, park or other public place. It is sold by a hawker or vendor from a portable stall, cart or food truck.</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+
+
+ </div>   
+
+</section>
+
+<!---places-->
+
+<section class="places">
+    <h1>Find Places</h1>
+    <p>Have you ever tasted amazing street food in Chennai?</p>
+
+
+
+</section>
+
+<!---------Javascript for taggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+
+
+</html>
