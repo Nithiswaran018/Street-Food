@@ -147,6 +147,7 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 h3{
     text-align: center;
@@ -160,4 +161,31 @@ h3{
 .row{
     flex-direction: column;
 }
+}
+
+/*--------------------campus--------------*/
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-cal{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-cal img{
+    width: 100%;
+}
+.layer{
+    background: rgba(226,0,0,0.7);
+    height: 1%;
+    width: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
