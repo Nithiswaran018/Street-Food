@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Street Food Fun</title>
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,123 +10,108 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 </head>
 <body>
-<section class="header">
+<section class="header" id="home">
     <nav>
-        <a href="index.html"><img src="images/logo.jpg"></a>
+        <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PLACES</a></li>
-                <li><a href="">VISITERS</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#places">PLACES</a></li>
+                <li><a href="#visitors">VISITORS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
-        <i class="fa-solid fa-bars" onclick="showmenu"></i>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
     </nav>
- <div class="text-box">
-    <h1>World's Biggest Street Food</h1>
-    <p>Street food is exactly what the words conjure up: food available in a public place, such as from a vendor on a street. And so much more! Typically, street food is tasty, ready-to-eat food or drink sold on the street, in a market, fair, park or other public place. It is sold by a hawker or vendor from a portable stall, cart or food truck.</p>
-    <a href="" class="hero-btn">Visit Us To Know More</a>
-
-
- </div>   
-
+    <div class="text-box">
+        <h1>World's Biggest Street Food</h1>
+        <p>Street food is exactly what the words conjure up: food available in a public place, such as from a vendor on a street. And so much more!</p>
+        <a href="#about" class="hero-btn">Visit Us To Know More</a>
+    </div>
 </section>
 
-<!---places-->
-
-<section class="places">
+<section class="places" id="places">
     <h1>Find Places</h1>
     <p>Have you ever tasted amazing street food in Chennai?</p>
-<div class="row">
-    <div class="search-places">
-        <h3>Tamilnadu</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum qui aut doloremque veritatis ducimus a magnam, ex dignissimos provident nulla temporibus! Accusamus maxime esse libero mollitia recusandae omnis pariatur cumque.</p>
+    <div class="row">
+        <div class="search-places">
+            <h3>Tamilnadu</h3>
+            <p>Experience the vibrant flavors of Tamilnadu street food.</p>
+        </div>
+        <div class="search-places">
+            <h3>Bengaluru</h3>
+            <p>Explore the famous food corners of Bengaluru.</p>
+        </div>
+        <div class="search-places">
+            <h3>Kerala</h3>
+            <p>Relish the unique delicacies of Kerala.</p>
+        </div>
     </div>
-    <div class="search-places">
-        <h3>Bengalore</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum qui aut doloremque veritatis ducimus a magnam, ex dignissimos provident nulla temporibus! Accusamus maxime esse libero mollitia recusandae omnis pariatur cumque.</p>
-    </div>
-    <div class="search-places">
-        <h3>Kerala</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum qui aut doloremque veritatis ducimus a magnam, ex dignissimos provident nulla temporibus! Accusamus maxime esse libero mollitia recusandae omnis pariatur cumque.</p>
-    </div>
-</div>
 </section>
-<!-----Our Foods-->
-<section class="campus">
-    <h1>our Foods</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus quo eveniet voluptate, incidunt facilis dolorum. Maiores nihil nisi aut libero. Doloremque odio quod quos esse pariatur quam provident ducimus.</p>
 
+<section class="campus" id="about">
+    <h1>Our Foods</h1>
+    <p>Discover the authenticity and flavors of our foods, crafted with love and tradition.</p>
     <div class="row">
         <div class="campus-cal img">
-            <img src="images/Food1.jpg">
+            <img src="images/Food1.jpg" alt="Kerala Food">
             <div class="layer">
                 <h3>Kerala</h3>
             </div>
         </div>
         <div class="campus-cal img">
-            <img src="images/Food2.jpg">
+            <img src="images/Food2.jpg" alt="Bengaluru Food">
             <div class="layer">
-                <h3>Bengalore</h3>
+                <h3>Bengaluru</h3>
             </div>
         </div>
         <div class="campus-cal img">
-            <img src="images/Food3.jpg">
+            <img src="images/Food3.jpg" alt="Tamilnadu Food">
             <div class="layer">
                 <h3>Tamilnadu</h3>
             </div>
         </div>
     </div>
 </section>
-<!---Visiters-->
 
-<section class="visiters">
-    <h1>Our Visiters</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, nesciunt voluptas quis velit labore beatae excepturi libero maxime ullam debitis voluptate placeat tempora nisi similique omnis ipsam sequi iusto dolore?</p>
-    <div class="row">
-        <div class="visiters-col">
-            <img src="images/world class.jpg">
-            <h3>World Class Food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, hic aliquam quod dignissimos quibusdam cupiditate exercitationem molestias totam aut ad, saepe eligendi fugiat culpa consequuntur dolores possimus labore perferendis quae.</p>
+<section class="visiters" id="visitors">
+       <div class="row">
+        <section class="visitors">
+            <h1>Our Visitors</h1>
+            <p>Take a look at the wonderful moments of our visitors enjoying street food.</p>
+            <div class="visitors-gallery">
+                <div class="scroll-container">
+                <img src="images\visitor1.jpg.jpeg" alt="Visitor 1">
+                <img src="images\visitor2.jpg.jpeg" alt="Visitor 2">
+                <img src="images\visitor3.jpg.jpeg" alt="Visitor 3">
+                <img src="images\visitor4.jpg.jpeg" alt="Visitor 4">
+                <img src="images\visitor5.jpg.jpg" alt="Visitor 5">
+                <img src="images\visitor6.jpg.webp" alt="Visitor 6">
+                <img src="images\visitor7.jpg.jpeg" alt="Visitor 7">
+                <img src="images\visitor8.jpg.webp" alt="Visitor 8">
+                <img src="images\visitor9.jpg.jpeg" alt="Visitor 9">
+                <img src="images\visitor10.jpg" alt="Visitor 10">
+            </div>
         </div>
-        <div class="visiters-col">
-            <img src="images/health food.jpg">
-            <h3>Tasty and Healthy Foods</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, hic aliquam quod dignissimos quibusdam cupiditate exercitationem molestias totam aut ad, saepe eligendi fugiat culpa consequuntur dolores possimus labore perferendis quae.</p>
-        </div>
-        <div class="visiters-col">
-            <img src="images/Map food.jpeg">
-            <h3>Best way to find food street</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, hic aliquam quod dignissimos quibusdam cupiditate exercitationem molestias totam aut ad, saepe eligendi fugiat culpa consequuntur dolores possimus labore perferendis quae.</p>
-        </div>
-
-
+        </section>
+        
+                
     </div>
-
-    </div>
-
-
-
 </section>
 
+<section class="contact" id="contact">
+    <h1>Contact Us</h1>
+    <p>Reach out to us for inquiries or collaborations.</p>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="hero-btn">Send Message</button>
+    </form>
+</section>
 
-<!---------Javascript for taggle Menu-->
-<script>
-    var navLinks = document.getElementById("navLinks")
-
-    function showmenu(){
-        navLinks.style.right = "0";
-    }
-
-    function hidemenu(){
-        navLinks.style.right = "-200px";
-    }
-
-</script>
+<script src="script.js"></script>
 </body>
-
-
 </html>
